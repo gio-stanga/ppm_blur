@@ -40,7 +40,7 @@ This will produce an executable named ppm_blur.
 ## Usage
 
 ```bash
-./final <block_size> <image.ppm>
+./ppm_blur <block_size> <image.ppm>
 ```
 
 - <block_size>: Desired pixelation block size (integer > 0) usully between 20 and 100 is fine.
@@ -56,7 +56,7 @@ The program will:
 ## Example
 
 ```bash
-./final 40 img.ppm
+./ppm_blur 40 img.ppm
 ```
 ![example](images/img.png)
 
